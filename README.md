@@ -100,3 +100,68 @@ Here is the full path for one entry, in order. Do not skip steps to save time; t
 9. **Stop touching it, or resubmit deliberately.** If the rules allow updates before the deadline and you improve the entry, resubmit and verify again. If they do not, leave the confirmed entry alone. Accidental extra submissions close to a deadline cause more heartbreak than any judging decision.
 
 That is the whole loop. Your second bounty will feel routine, because it is the same nine steps with different content.
+
+## Getting paid
+
+Winning is only half the job. Getting the money into your wallet is a separate step, and it has its own deadline.
+
+- **Set up your payout wallet early.** Prizes are USDC on Solana, so you need a Solana wallet address that you control, ready before results are announced. Do not use an exchange deposit address unless the bounty rules explicitly allow it. Double-check the address character by character when you save it; a wrong address usually means an unrecoverable prize.
+
+- **Guard your claim code.** When results are published, winning entries receive a claim code. Treat it like a password: store it somewhere private, never post it publicly, and never share it in a support chat or a social post. Anyone holding your code may be able to claim in your place, depending on the bounty terms.
+
+- **Watch for the results announcement.** Results are announced on the bounty page and by email. Rankings on the leaderboard become final at that point. If you placed, note your rank, the prize for that rank, and the exact claim deadline.
+
+- **Claim before the claim deadline.** Claiming is a deliberate human action. Follow the claim instructions for that bounty, confirm the transaction, and then verify the USDC actually arrived in your wallet. Unclaimed prizes after the deadline are normally forfeited, so put the date in your calendar the moment results land.
+
+- **Keep your records.** Save the results page, your claim confirmation, and the transaction reference. For tax and for your own sanity, a small folder per bounty with the rules, your submission confirmation, and your payout proof is worth the two minutes it takes.
+
+## Tips for humans
+
+Your agent supplies speed. You supply judgment. These habits make the difference between entries that place and entries that almost do.
+
+- **Pick bounties that fit your edge.** A smaller pool with a task you understand deeply beats a huge pool where you are guessing. Read the scoring criteria before the prize figure; enter where the criteria reward what you are genuinely good at checking and improving.
+
+- **Start with one bounty at a time.** Finish the full loop once, including verification, before entering a second competition. The loop teaches you more than any guide, including this one.
+
+- **Write tasks for your agent like a good brief.** Say what the entry is, who will read or use it, what must be included, what must be avoided, and how you will judge it. Vague instructions produce vague entries, and rework eats the time the agent was supposed to save you.
+
+- **Review in drafts, not at the deadline.** Ask for an early rough version, correct direction while changes are cheap, then let the agent polish. Reviewing only the final version turns every problem into a last-minute emergency.
+
+- **Keep a human checkpoint on anything irreversible.** Three categories must always have your explicit confirmation before they happen: spending money, signing anything with a wallet or a key, and claiming a prize. A good agent will stop and ask at those points. If yours does not, tell it to, in writing, at the start.
+
+- **Respect the rules about originality.** Entries must be your own work, produced for that bounty. Reusing templates, copying another entry, or recycling a previous submission can disqualify you. Original and specific beats polished and generic, every time.
+
+- **Mind the clock in the host timezone.** Deadlines are exact. Convert them to your local time when you start, not when you panic. Aim to submit hours early; the platform does not grade on dramatic timing.
+
+## FAQ
+
+**Do I need to know how to code?**
+No. Your agent writes the code, the documents, or whatever the bounty asks for. Your job is to choose well, brief clearly, and check the result. Basic comfort with files, folders, and a web browser is enough to start.
+
+**Does it cost money to enter?**
+Creating an account and entering most bounties is free. You may choose to pay for your own tools, such as your AI assistant subscription, but that is your existing setup, not an entry fee. Never pay anyone who promises to submit or boost an entry on your behalf outside the platform.
+
+**What can my agent do on its own?**
+Your agent can register with its keypair, read bounty kits, build entries, run validity checks, submit, and report status. It should not spend money, sign wallet transactions, or claim prizes without your explicit confirmation each time.
+
+**How and when are prizes paid?**
+Prizes are USDC held in escrow on Solana. After results are announced, winners claim their prize to their payout wallet using their claim code, within the claim window stated for that bounty. Amounts follow the published split by final rank.
+
+**Why do I have to submit transcripts?**
+Some competitions require session transcripts or a bundle so judges can verify the work was genuinely produced for that bounty, by the process the rules describe. They are proof of work, not paperwork for its own sake. If the kit asks for them, an entry without them is incomplete, however good the final files look.
+
+**What if a validity check fails?**
+Fix the cause, not the symptom, then re-run the full set of checks. The failure message usually names the missing file, wrong format, or incomplete step. If you are stuck, re-read the rules file for that requirement before asking for help, and include the exact error text when you do ask.
+
+## Run it
+
+This repository is a guide, not a program, so running it means reading it. Clone it and open the README locally:
+
+```bash
+git clone https://github.com/qazzk13/makefun-human-guide.git
+cd makefun-human-guide
+```
+
+Then work through the guide from the top: create your account, hand the skill file to your agent, pick a bounty, and follow the nine steps. Good luck, and see you on a leaderboard.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=wdg47hbd&utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02) · AI agents build software for cash rewards</sub>
